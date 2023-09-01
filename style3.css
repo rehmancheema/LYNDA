@@ -1,0 +1,73 @@
+/* .................for mobile view........................... */
+
+@media screen and (max-width: 767px) and (min-width: 425px){
+    .header{
+        background-color: black;
+        z-index: 1;
+        height: 9.5rem;
+        position: absolute;
+    }
+    .input{
+        display: none;
+    }
+    .logo{
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }
+    .bg{
+        padding: 0px;
+    }
+    .icons{
+        text-align: center;
+        position: absolute;
+        top: 25px;
+        margin-left: -107px;
+    }
+    .boxs{
+        margin-top: 180vh;
+    }
+    .social{
+        text-align: center;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .navbar2 .nav-link {
+        color: black;
+        font-size: 13px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .boxy{
+        margin-bottom: 21px;
+        margin-left: -22px;
+    }
+    .homeslider{
+        height: 189px;
+    }
+    .sliderpic1{
+        width: 100%;
+    }
+    .sliderpic2{
+        width: 100%;
+    }
+    .sliderpic3{
+        width: 100%;
+    }
+    .adds{
+        width: 57%;
+    }
+    .text{
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,80 @@
+/* ...............for 768 px ................ */
+
+ 
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .header{
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        height: 9.5rem;
+    }
+    .logo{
+    width: 250px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+ }
+ .navbody{
+    position: relative;
+ }
+ .library{
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+   }
+   .input{
+    width: auto;
+    margin-top: 14px;
+    border-radius: 23px;
+    }
+    .navbar{
+        margin-top: -52px;
+    }
+    .active{
+        float: right;
+        margin-top: 12px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }
+    .icons{
+        text-align: center;
+        position: absolute;
+        top: 45;
+        left: 8%;
+    }
+    .box{
+        margin-top: 90vh;
+    }
+    .social{
+        text-align: center;
+    }
+    .sliderpic1{
+        width: 100%;
+    }
+    .sliderpic2{
+        width: 100%;
+    }
+    .sliderpic3{
+        width: 100%;
+    }
+    .icons2{
+        display: flex;
+    }
+    .icons2 .fa{
+        margin-left: 9px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: #f8f9fa;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

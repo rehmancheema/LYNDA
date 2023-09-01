@@ -1,0 +1,31 @@
+
+/* ...........For laptop 1024 px ............  */
+@media screen and (max-width: 1440px) and (min-width: 1024px){
+    .library{
+        font-size: large;
+        text-decoration: none;
+        color: aliceblue;
+       }
+    .input{
+        width:40%;
+    }
+    .navbody{
+        height: 130px;
+    }
+    .icons{
+        text-align: center;
+        position: absolute;
+        top: 45;
+        left: 17%;
+    }
+    .logo1{
+        height:310px;
+        border-radius: 5px;
+    }
+    .card-title{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+  }
